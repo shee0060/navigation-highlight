@@ -6,12 +6,28 @@ html {
   box-sizing: inherit;
 }
 
+header{
+  background-color: #ffe500;
+}
+
 h1{
   font-family: 'Sigmar One', cursive;
+  color: #cc1465;
 }
 
 a {
+  list-style-type: none;
+  text-decoration: none;
   display: inline-block;
   color: #fff;
   background-color: #2f2d13;
+}
+
+.current {
+  background-color: #cc1465;
+}
+
+h2 {
+  font-family: 'Sigmar One', cursive;
+  color: #cc1465;
 }
