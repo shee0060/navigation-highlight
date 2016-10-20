@@ -12,6 +12,11 @@ header, footer {
   width: 100%;
 }
 
+header {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -25,10 +30,15 @@ h1 {
   margin: 0 0 .4em;
 }
 
+nav {
+  padding: 0 0 .4em;
+  margin: 0;
+}
+
 nav ul {
   text-align: center;
   margin: 0;
-  padding: 0 0 .4em;
+  padding: 0;
 }
 
 nav li {
@@ -38,13 +48,14 @@ nav li {
 
 a {
   display: inline-block;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   text-decoration: none;
   font-size: 1.125rem;
   color: #fff;
   background-color: #b2a212;
   border-radius: 4px;
   padding: .2em .5em .3em;
+  margin-bottom: .3em;
 }
 
 a:hover {
