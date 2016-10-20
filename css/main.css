@@ -60,6 +60,8 @@ h2 {
   font-family: 'Sigmar One', cursive;
   font-size: 1.875rem;
   color: #b20953;
+  margin: .3em;
+  padding: 10px;
 }
 
 img {
