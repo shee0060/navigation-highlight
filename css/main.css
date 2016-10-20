@@ -6,13 +6,16 @@ html {
   box-sizing: inherit;
 }
 
-header{
+header, footer {
   background-color: #ffe500;
+  width: 100%;
 }
 
 h1{
   font-family: 'Sigmar One', cursive;
   color: #cc1465;
+  text-align: center;
+  font-size: 3rem;
 }
 
 a {
@@ -30,4 +33,10 @@ a {
 h2 {
   font-family: 'Sigmar One', cursive;
   color: #cc1465;
+  font-size: 1.875rem;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
 }
