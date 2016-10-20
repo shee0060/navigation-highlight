@@ -25,10 +25,10 @@ h1 {
   margin: 0;
 }
 
-nav {
+nav ul {
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding: 0 0 .4em;
 }
 
 nav li {
@@ -46,7 +46,7 @@ a {
   padding: .2em .5em .3em;
 }
 
-a:hover {
+a :hover {
   color: #fff;
   background-color:#cc1465;
 }
@@ -70,8 +70,12 @@ img {
 p {
   font-family: Georgia;
   color: #2f2d13;
+  text-size: 1.125rem;
 }
+
 footer {
   text-align: center;
   padding: 10px;
+  margin: 0;
+  padding; 0;
 }
