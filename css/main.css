@@ -47,7 +47,7 @@ a {
   padding: .2em .5em .3em;
 }
 
-a: hover {
+a:hover {
   color: #fff;
   background-color:#cc1465;
 }
